@@ -1,0 +1,22 @@
+$primary-color:#1A129F;
+$s-primary-color:#6156F9;
+$secondary-color:#7E76F9;
+$dark:#333;
+$mydelay:0.5s;
+
+@keyframes navShow{
+    from{
+        transform: translateY(-200px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+@keyframes upShow{
+    from{
+        transform: translateY(-50px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
